@@ -1,0 +1,21 @@
+package com.example.CS575;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/*
+ *  multi-line comment
+ *  ....%^&*
+ */
+
+
+// single-line comment
+@SpringBootApplication
+public class CS575Application {
+
+    // test comment
+	public static void main(String[] args) {
+		SpringApplication.run(CS575Application.class, args);
+	}
+
+}
